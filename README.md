@@ -18,18 +18,29 @@ This repo contains method to calibrate the BMX160X imu from bosch sensortec.
 
 ## Directory Hierarchy
 ```
-|—— .picowgo
-|—— bangbang
-|—— lib
-|    |—— bmx160.py
-|    |—— deltat.py
-|    |—— fusion.py
-|    |—— imu.py
-|    |—— OnBoardComputer.code-workspace
-|—— main.py
-|—— triad
-|    |—— traid.py
+|—— AccelerometerCalibration
+|    |—— acceldata.txt
+|    |—— magneto12.exe
+|    |—— plot-calibration-data.py
+|    |—— record-data.py
+|—— LICENSE
+|—— MagnetometerCalibration
+|    |—— log-mag-readings.py
+|    |—— mag-readings.txt
+|    |—— magneto12.exe
+|    |—— plot-calibration-data.py
+|    |—— README.md
+|—— PiPico
+|    |—— .picowgo
+|    |—— lib
+|        |—— bmx160.py
+|        |—— deltat.py
+|        |—— fusion.py
+|        |—— imu.py
+|        |—— OnBoardComputer.code-workspace
+|    |—— main.py
 ```
+
 ## Code Details
 ### Tested Platform
 - software
