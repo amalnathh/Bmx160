@@ -3,29 +3,32 @@
 ## Information
 This repo contains method to calibrate the BMX160X imu from bosch sensortec.
 
-## Install & Dependence
+## Install & Dependence in pico
 - machine
 - math
 - time
 
-## Dataset Preparation
-| Dataset | Download |
+## Datasheets
+| Datasheet | Download |
 | ---     | ---   |
 | BMX160 | [download](https://www.mouser.com/pdfdocs/BST-BMX160-DS000-11.pdf) |
 | Pi Pico | [download](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf) |
 | Pi Pico Pinout | [download](https://datasheets.raspberrypi.com/pico/Pico-R3-A4-Pinout.pdf) |
 
- 
 
 ## Directory Hierarchy
 ```
 |—— .picowgo
+|—— bangbang
 |—— lib
 |    |—— bmx160.py
 |    |—— deltat.py
 |    |—— fusion.py
 |    |—— imu.py
+|    |—— OnBoardComputer.code-workspace
 |—— main.py
+|—— triad
+|    |—— traid.py
 ```
 ## Code Details
 ### Tested Platform
@@ -44,5 +47,4 @@ This repo contains method to calibrate the BMX160X imu from bosch sensortec.
 - [Sensor Fusion Calibration - Code](https://github.com/micropython-IMU/micropython-fusion) 
   
 ## License
-
-
+- [MIT License](/LICENSE)
