@@ -58,4 +58,3 @@ def calibrate_magnetometer(raw_mag, field_strength=40.0):
     print("========================================\n")
 
     return bias, transform * scale, scale
-// Test Comment
